@@ -1,0 +1,65 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.character-sheet-attribute-container {
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+.character-sheet-attributes-container {
+    display: grid;
+    grid-row-gap: 30px;
+}
+
+.character-sheet-attribute-box {
+    align-items: center;
+    background-color: black;
+    border: 5px solid white;
+    height: 90%;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+}
+
+.character-sheet-attribute-name {
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+    height: 30%;
+    justify-content: center;
+    width: 100%;
+}
+
+.character-sheet-attribute-value {
+    align-items: center;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    width: 100%;
+}
+
+.character-sheet-modifier-box {
+    align-items: center;
+    background-color: black;
+    border: 5px solid white;
+    bottom: 20px;
+    display: flex;
+    height: 40%;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    width: 50%;
+}
